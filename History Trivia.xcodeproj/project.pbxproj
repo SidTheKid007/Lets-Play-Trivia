@@ -7,6 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02B0E33252F78290037CF08 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02B0E32252F78290037CF08 /* Messages.framework */; };
+		C02B0E36252F78290037CF08 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B0E35252F78290037CF08 /* MessagesViewController.swift */; };
+		C02B0E39252F78290037CF08 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E37252F78290037CF08 /* MainInterface.storyboard */; };
+		C02B0E3B252F78310037CF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E3A252F78310037CF08 /* Assets.xcassets */; };
+		C02B0E3F252F78310037CF08 /* Trivia Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C02B0E30252F78290037CF08 /* Trivia Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C02B0E45252F79BD0037CF08 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B0E44252F79BD0037CF08 /* BrowserViewController.swift */; };
+		C02B0EB3252F85050037CF08 /* Funny Frog.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E90252F85020037CF08 /* Funny Frog.png */; };
+		C02B0EB4252F85050037CF08 /* Thumb Tack.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E91252F85020037CF08 /* Thumb Tack.png */; };
+		C02B0EB5252F85050037CF08 /* Tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E92252F85020037CF08 /* Tiki.png */; };
+		C02B0EB6252F85050037CF08 /* USB Drive.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E93252F85020037CF08 /* USB Drive.png */; };
+		C02B0EB7252F85050037CF08 /* Art Gator.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E94252F85020037CF08 /* Art Gator.png */; };
+		C02B0EB8252F85050037CF08 /* Hatted Turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E95252F85020037CF08 /* Hatted Turkey.png */; };
+		C02B0EB9252F85050037CF08 /* Sun Face.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E96252F85020037CF08 /* Sun Face.png */; };
+		C02B0EBA252F85050037CF08 /* Rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E97252F85030037CF08 /* Rocket.png */; };
+		C02B0EBB252F85050037CF08 /* Archer.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E98252F85030037CF08 /* Archer.png */; };
+		C02B0EBC252F85050037CF08 /* Rubber Duck.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E99252F85030037CF08 /* Rubber Duck.png */; };
+		C02B0EBD252F85050037CF08 /* Easter Rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9A252F85030037CF08 /* Easter Rabbit.png */; };
+		C02B0EBE252F85050037CF08 /* Piggy.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9B252F85030037CF08 /* Piggy.png */; };
+		C02B0EBF252F85050037CF08 /* Robot.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9C252F85030037CF08 /* Robot.png */; };
+		C02B0EC0252F85050037CF08 /* Lighthouse.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9D252F85030037CF08 /* Lighthouse.png */; };
+		C02B0EC1252F85050037CF08 /* Race Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9E252F85030037CF08 /* Race Flag.png */; };
+		C02B0EC2252F85050037CF08 /* Pirate Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0E9F252F85030037CF08 /* Pirate Flag.png */; };
+		C02B0EC3252F85050037CF08 /* Mad Cow.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA0252F85030037CF08 /* Mad Cow.png */; };
+		C02B0EC4252F85050037CF08 /* Peace Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA1252F85030037CF08 /* Peace Bird.png */; };
+		C02B0EC5252F85050037CF08 /* Bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA2252F85030037CF08 /* Bomb.png */; };
+		C02B0EC6252F85050037CF08 /* Rainbow Trout.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA3252F85040037CF08 /* Rainbow Trout.png */; };
+		C02B0EC7252F85050037CF08 /* Parrot Pirate.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA4252F85040037CF08 /* Parrot Pirate.png */; };
+		C02B0EC8252F85050037CF08 /* Rose.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA5252F85040037CF08 /* Rose.png */; };
+		C02B0EC9252F85050037CF08 /* Honey.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA6252F85040037CF08 /* Honey.png */; };
+		C02B0ECA252F85050037CF08 /* Cherries.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA7252F85040037CF08 /* Cherries.png */; };
+		C02B0ECB252F85050037CF08 /* Eiffel Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA8252F85040037CF08 /* Eiffel Tower.png */; };
+		C02B0ECC252F85050037CF08 /* Mechanic.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EA9252F85040037CF08 /* Mechanic.png */; };
+		C02B0ECD252F85050037CF08 /* Soccer Field.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAA252F85040037CF08 /* Soccer Field.png */; };
+		C02B0ECE252F85050037CF08 /* Grilling Owl.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAB252F85040037CF08 /* Grilling Owl.png */; };
+		C02B0ECF252F85050037CF08 /* Chickens.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAC252F85040037CF08 /* Chickens.png */; };
+		C02B0ED0252F85050037CF08 /* Star Bear.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAD252F85040037CF08 /* Star Bear.png */; };
+		C02B0ED1252F85050037CF08 /* Haunted Castle.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAE252F85040037CF08 /* Haunted Castle.png */; };
+		C02B0ED2252F85050037CF08 /* Fifty Cent.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EAF252F85050037CF08 /* Fifty Cent.png */; };
+		C02B0ED3252F85050037CF08 /* Racecar.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EB0252F85050037CF08 /* Racecar.png */; };
+		C02B0ED4252F85050037CF08 /* Blue Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EB1252F85050037CF08 /* Blue Bird.png */; };
+		C02B0ED5252F85050037CF08 /* Gingerbread Man.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EB2252F85050037CF08 /* Gingerbread Man.png */; };
+		C02B0ED9252F87D60037CF08 /* Mike Guy.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0ED8252F87D60037CF08 /* Mike Guy.png */; };
+		C02B0EDB252F8A5D0037CF08 /* Doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EDA252F8A5D0037CF08 /* Doctor.png */; };
+		C02B0EDD252F8ACF0037CF08 /* Moose.png in Resources */ = {isa = PBXBuildFile; fileRef = C02B0EDC252F8ACE0037CF08 /* Moose.png */; };
+		C02BFB81252BF190000D18A7 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02BFB80252BF190000D18A7 /* Animations.swift */; };
 		C038DC9F25251CC600D3510E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DC9E25251CC600D3510E /* AppDelegate.swift */; };
 		C038DCA125251CC600D3510E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DCA025251CC600D3510E /* SceneDelegate.swift */; };
 		C038DCA325251CC600D3510E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DCA225251CC600D3510E /* ViewController.swift */; };
@@ -15,9 +60,21 @@
 		C038DCAB25251CCA00D3510E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C038DCA925251CCA00D3510E /* LaunchScreen.storyboard */; };
 		C038DCB625251CCA00D3510E /* History_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DCB525251CCA00D3510E /* History_TriviaTests.swift */; };
 		C038DCC125251CCA00D3510E /* History_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038DCC025251CCA00D3510E /* History_TriviaUITests.swift */; };
+		C09ED49A252817A90002F11E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED499252817A90002F11E /* MyCollectionViewCell.swift */; };
+		C09ED49C2528189E0002F11E /* InventoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED49B2528189E0002F11E /* InventoryController.swift */; };
+		C0A926EC254207380085CAED /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = C0A926EB254207380085CAED /* Sounds */; };
+		C0BE2165252664AB007E9BCE /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE2164252664AB007E9BCE /* GameController.swift */; };
+		C0BE2169252700CB007E9BCE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE2168252700CB007E9BCE /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C02B0E3D252F78310037CF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C038DC9325251CC500D3510E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B0E2F252F78290037CF08;
+			remoteInfo = "Trivia Stickers";
+		};
 		C038DCB225251CCA00D3510E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C038DC9325251CC500D3510E /* Project object */;
@@ -34,8 +91,70 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C02B0E43252F78310037CF08 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C02B0E3F252F78310037CF08 /* Trivia Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C038DC9B25251CC600D3510E /* History Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "History Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B0E30252F78290037CF08 /* Trivia Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Trivia Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B0E32252F78290037CF08 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		C02B0E35252F78290037CF08 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C02B0E38252F78290037CF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C02B0E3A252F78310037CF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B0E3C252F78310037CF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B0E44252F79BD0037CF08 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		C02B0E90252F85020037CF08 /* Funny Frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Funny Frog.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Funny Frog.png"; sourceTree = "<group>"; };
+		C02B0E91252F85020037CF08 /* Thumb Tack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb Tack.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Thumb Tack.png"; sourceTree = "<group>"; };
+		C02B0E92252F85020037CF08 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tiki.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Tiki.png"; sourceTree = "<group>"; };
+		C02B0E93252F85020037CF08 /* USB Drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "USB Drive.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/USB Drive.png"; sourceTree = "<group>"; };
+		C02B0E94252F85020037CF08 /* Art Gator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Art Gator.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Art Gator.png"; sourceTree = "<group>"; };
+		C02B0E95252F85020037CF08 /* Hatted Turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hatted Turkey.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Hatted Turkey.png"; sourceTree = "<group>"; };
+		C02B0E96252F85020037CF08 /* Sun Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sun Face.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Sun Face.png"; sourceTree = "<group>"; };
+		C02B0E97252F85030037CF08 /* Rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rocket.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Rocket.png"; sourceTree = "<group>"; };
+		C02B0E98252F85030037CF08 /* Archer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Archer.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Archer.png"; sourceTree = "<group>"; };
+		C02B0E99252F85030037CF08 /* Rubber Duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rubber Duck.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Rubber Duck.png"; sourceTree = "<group>"; };
+		C02B0E9A252F85030037CF08 /* Easter Rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Easter Rabbit.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Easter Rabbit.png"; sourceTree = "<group>"; };
+		C02B0E9B252F85030037CF08 /* Piggy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Piggy.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Piggy.png"; sourceTree = "<group>"; };
+		C02B0E9C252F85030037CF08 /* Robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Robot.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Robot.png"; sourceTree = "<group>"; };
+		C02B0E9D252F85030037CF08 /* Lighthouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lighthouse.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Lighthouse.png"; sourceTree = "<group>"; };
+		C02B0E9E252F85030037CF08 /* Race Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Race Flag.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Race Flag.png"; sourceTree = "<group>"; };
+		C02B0E9F252F85030037CF08 /* Pirate Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pirate Flag.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Pirate Flag.png"; sourceTree = "<group>"; };
+		C02B0EA0252F85030037CF08 /* Mad Cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mad Cow.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Mad Cow.png"; sourceTree = "<group>"; };
+		C02B0EA1252F85030037CF08 /* Peace Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Peace Bird.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Peace Bird.png"; sourceTree = "<group>"; };
+		C02B0EA2252F85030037CF08 /* Bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bomb.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Bomb.png"; sourceTree = "<group>"; };
+		C02B0EA3252F85040037CF08 /* Rainbow Trout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rainbow Trout.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Rainbow Trout.png"; sourceTree = "<group>"; };
+		C02B0EA4252F85040037CF08 /* Parrot Pirate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Parrot Pirate.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Parrot Pirate.png"; sourceTree = "<group>"; };
+		C02B0EA5252F85040037CF08 /* Rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rose.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Rose.png"; sourceTree = "<group>"; };
+		C02B0EA6252F85040037CF08 /* Honey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Honey.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Honey.png"; sourceTree = "<group>"; };
+		C02B0EA7252F85040037CF08 /* Cherries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cherries.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Cherries.png"; sourceTree = "<group>"; };
+		C02B0EA8252F85040037CF08 /* Eiffel Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eiffel Tower.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Eiffel Tower.png"; sourceTree = "<group>"; };
+		C02B0EA9252F85040037CF08 /* Mechanic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mechanic.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Mechanic.png"; sourceTree = "<group>"; };
+		C02B0EAA252F85040037CF08 /* Soccer Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Soccer Field.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Soccer Field.png"; sourceTree = "<group>"; };
+		C02B0EAB252F85040037CF08 /* Grilling Owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grilling Owl.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Grilling Owl.png"; sourceTree = "<group>"; };
+		C02B0EAC252F85040037CF08 /* Chickens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chickens.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Chickens.png"; sourceTree = "<group>"; };
+		C02B0EAD252F85040037CF08 /* Star Bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Star Bear.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Star Bear.png"; sourceTree = "<group>"; };
+		C02B0EAE252F85040037CF08 /* Haunted Castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Haunted Castle.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Haunted Castle.png"; sourceTree = "<group>"; };
+		C02B0EAF252F85050037CF08 /* Fifty Cent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fifty Cent.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Fifty Cent.png"; sourceTree = "<group>"; };
+		C02B0EB0252F85050037CF08 /* Racecar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Racecar.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Racecar.png"; sourceTree = "<group>"; };
+		C02B0EB1252F85050037CF08 /* Blue Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blue Bird.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Blue Bird.png"; sourceTree = "<group>"; };
+		C02B0EB2252F85050037CF08 /* Gingerbread Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gingerbread Man.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Gingerbread Man.png"; sourceTree = "<group>"; };
+		C02B0ED6252F85670037CF08 /* History Trivia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "History Trivia.entitlements"; sourceTree = "<group>"; };
+		C02B0ED7252F86220037CF08 /* Trivia Stickers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Trivia Stickers.entitlements"; sourceTree = "<group>"; };
+		C02B0ED8252F87D60037CF08 /* Mike Guy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mike Guy.png"; path = "../../../Assets/Sticker Pics/TriviaGatcha/Mike Guy.png"; sourceTree = "<group>"; };
+		C02B0EDA252F8A5D0037CF08 /* Doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Doctor.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Doctor.png"; sourceTree = "<group>"; };
+		C02B0EDC252F8ACE0037CF08 /* Moose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moose.png; path = "../../../Assets/Sticker Pics/TriviaGatcha/Moose.png"; sourceTree = "<group>"; };
+		C02BFB80252BF190000D18A7 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		C038DC9B25251CC600D3510E /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C038DC9E25251CC600D3510E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C038DCA025251CC600D3510E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C038DCA225251CC600D3510E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,9 +168,22 @@
 		C038DCBC25251CCA00D3510E /* History TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "History TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C038DCC025251CCA00D3510E /* History_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_TriviaUITests.swift; sourceTree = "<group>"; };
 		C038DCC225251CCA00D3510E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09ED499252817A90002F11E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		C09ED49B2528189E0002F11E /* InventoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryController.swift; sourceTree = "<group>"; };
+		C0A926EB254207380085CAED /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		C0BE2164252664AB007E9BCE /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		C0BE2168252700CB007E9BCE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C02B0E2D252F78290037CF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B0E33252F78290037CF08 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C038DC9825251CC600D3510E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +208,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02B0E31252F78290037CF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02B0E32252F78290037CF08 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02B0E34252F78290037CF08 /* Trivia Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				C02B0ED7252F86220037CF08 /* Trivia Stickers.entitlements */,
+				C02B0E35252F78290037CF08 /* MessagesViewController.swift */,
+				C02B0E44252F79BD0037CF08 /* BrowserViewController.swift */,
+				C02B0E37252F78290037CF08 /* MainInterface.storyboard */,
+				C02B0E3A252F78310037CF08 /* Assets.xcassets */,
+				C02B0E3C252F78310037CF08 /* Info.plist */,
+				C02B0ED8252F87D60037CF08 /* Mike Guy.png */,
+				C02B0E98252F85030037CF08 /* Archer.png */,
+				C02B0E94252F85020037CF08 /* Art Gator.png */,
+				C02B0EB1252F85050037CF08 /* Blue Bird.png */,
+				C02B0EA2252F85030037CF08 /* Bomb.png */,
+				C02B0EA7252F85040037CF08 /* Cherries.png */,
+				C02B0EAC252F85040037CF08 /* Chickens.png */,
+				C02B0EDA252F8A5D0037CF08 /* Doctor.png */,
+				C02B0E9A252F85030037CF08 /* Easter Rabbit.png */,
+				C02B0EA8252F85040037CF08 /* Eiffel Tower.png */,
+				C02B0EAF252F85050037CF08 /* Fifty Cent.png */,
+				C02B0E90252F85020037CF08 /* Funny Frog.png */,
+				C02B0EB2252F85050037CF08 /* Gingerbread Man.png */,
+				C02B0EAB252F85040037CF08 /* Grilling Owl.png */,
+				C02B0E95252F85020037CF08 /* Hatted Turkey.png */,
+				C02B0EAE252F85040037CF08 /* Haunted Castle.png */,
+				C02B0EA6252F85040037CF08 /* Honey.png */,
+				C02B0E9D252F85030037CF08 /* Lighthouse.png */,
+				C02B0EA0252F85030037CF08 /* Mad Cow.png */,
+				C02B0EA9252F85040037CF08 /* Mechanic.png */,
+				C02B0EDC252F8ACE0037CF08 /* Moose.png */,
+				C02B0EA4252F85040037CF08 /* Parrot Pirate.png */,
+				C02B0EA1252F85030037CF08 /* Peace Bird.png */,
+				C02B0E9B252F85030037CF08 /* Piggy.png */,
+				C02B0E9F252F85030037CF08 /* Pirate Flag.png */,
+				C02B0E9E252F85030037CF08 /* Race Flag.png */,
+				C02B0EB0252F85050037CF08 /* Racecar.png */,
+				C02B0EA3252F85040037CF08 /* Rainbow Trout.png */,
+				C02B0E9C252F85030037CF08 /* Robot.png */,
+				C02B0E97252F85030037CF08 /* Rocket.png */,
+				C02B0EA5252F85040037CF08 /* Rose.png */,
+				C02B0E99252F85030037CF08 /* Rubber Duck.png */,
+				C02B0EAA252F85040037CF08 /* Soccer Field.png */,
+				C02B0EAD252F85040037CF08 /* Star Bear.png */,
+				C02B0E96252F85020037CF08 /* Sun Face.png */,
+				C02B0E91252F85020037CF08 /* Thumb Tack.png */,
+				C02B0E92252F85020037CF08 /* Tiki.png */,
+				C02B0E93252F85020037CF08 /* USB Drive.png */,
+			);
+			path = "Trivia Stickers";
+			sourceTree = "<group>";
+		};
 		C038DC9225251CC500D3510E = {
 			isa = PBXGroup;
 			children = (
 				C038DC9D25251CC600D3510E /* History Trivia */,
 				C038DCB425251CCA00D3510E /* History TriviaTests */,
 				C038DCBF25251CCA00D3510E /* History TriviaUITests */,
+				C02B0E34252F78290037CF08 /* Trivia Stickers */,
+				C02B0E31252F78290037CF08 /* Frameworks */,
 				C038DC9C25251CC600D3510E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,9 +282,10 @@
 		C038DC9C25251CC600D3510E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C038DC9B25251CC600D3510E /* History Trivia.app */,
+				C038DC9B25251CC600D3510E /* Trivia.app */,
 				C038DCB125251CCA00D3510E /* History TriviaTests.xctest */,
 				C038DCBC25251CCA00D3510E /* History TriviaUITests.xctest */,
+				C02B0E30252F78290037CF08 /* Trivia Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +293,18 @@
 		C038DC9D25251CC600D3510E /* History Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				C02B0ED6252F85670037CF08 /* History Trivia.entitlements */,
+				C0BE2168252700CB007E9BCE /* Question.swift */,
+				C02BFB80252BF190000D18A7 /* Animations.swift */,
+				C09ED499252817A90002F11E /* MyCollectionViewCell.swift */,
 				C038DC9E25251CC600D3510E /* AppDelegate.swift */,
 				C038DCA025251CC600D3510E /* SceneDelegate.swift */,
 				C038DCA225251CC600D3510E /* ViewController.swift */,
+				C0BE2164252664AB007E9BCE /* GameController.swift */,
+				C09ED49B2528189E0002F11E /* InventoryController.swift */,
 				C038DCA425251CC600D3510E /* Main.storyboard */,
 				C038DCA725251CCA00D3510E /* Assets.xcassets */,
+				C0A926EB254207380085CAED /* Sounds */,
 				C038DCA925251CCA00D3510E /* LaunchScreen.storyboard */,
 				C038DCAC25251CCA00D3510E /* Info.plist */,
 			);
@@ -131,6 +332,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C02B0E2F252F78290037CF08 /* Trivia Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B0E40252F78310037CF08 /* Build configuration list for PBXNativeTarget "Trivia Stickers" */;
+			buildPhases = (
+				C02B0E2C252F78290037CF08 /* Sources */,
+				C02B0E2D252F78290037CF08 /* Frameworks */,
+				C02B0E2E252F78290037CF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trivia Stickers";
+			productName = "Trivia Stickers";
+			productReference = C02B0E30252F78290037CF08 /* Trivia Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
 		C038DC9A25251CC600D3510E /* History Trivia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C038DCC525251CCA00D3510E /* Build configuration list for PBXNativeTarget "History Trivia" */;
@@ -138,14 +356,16 @@
 				C038DC9725251CC600D3510E /* Sources */,
 				C038DC9825251CC600D3510E /* Frameworks */,
 				C038DC9925251CC600D3510E /* Resources */,
+				C02B0E43252F78310037CF08 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C02B0E3E252F78310037CF08 /* PBXTargetDependency */,
 			);
 			name = "History Trivia";
 			productName = "History Trivia";
-			productReference = C038DC9B25251CC600D3510E /* History Trivia.app */;
+			productReference = C038DC9B25251CC600D3510E /* Trivia.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C038DCB025251CCA00D3510E /* History TriviaTests */ = {
@@ -194,6 +414,9 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Siddhesvar Kannan";
 				TargetAttributes = {
+					C02B0E2F252F78290037CF08 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					C038DC9A25251CC600D3510E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -223,17 +446,66 @@
 				C038DC9A25251CC600D3510E /* History Trivia */,
 				C038DCB025251CCA00D3510E /* History TriviaTests */,
 				C038DCBB25251CCA00D3510E /* History TriviaUITests */,
+				C02B0E2F252F78290037CF08 /* Trivia Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C02B0E2E252F78290037CF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B0ED1252F85050037CF08 /* Haunted Castle.png in Resources */,
+				C02B0ED4252F85050037CF08 /* Blue Bird.png in Resources */,
+				C02B0EC6252F85050037CF08 /* Rainbow Trout.png in Resources */,
+				C02B0EB4252F85050037CF08 /* Thumb Tack.png in Resources */,
+				C02B0EC1252F85050037CF08 /* Race Flag.png in Resources */,
+				C02B0EC3252F85050037CF08 /* Mad Cow.png in Resources */,
+				C02B0EB7252F85050037CF08 /* Art Gator.png in Resources */,
+				C02B0ECD252F85050037CF08 /* Soccer Field.png in Resources */,
+				C02B0EB8252F85050037CF08 /* Hatted Turkey.png in Resources */,
+				C02B0EBC252F85050037CF08 /* Rubber Duck.png in Resources */,
+				C02B0EB3252F85050037CF08 /* Funny Frog.png in Resources */,
+				C02B0EBD252F85050037CF08 /* Easter Rabbit.png in Resources */,
+				C02B0EC9252F85050037CF08 /* Honey.png in Resources */,
+				C02B0EC7252F85050037CF08 /* Parrot Pirate.png in Resources */,
+				C02B0EC4252F85050037CF08 /* Peace Bird.png in Resources */,
+				C02B0EB6252F85050037CF08 /* USB Drive.png in Resources */,
+				C02B0EC8252F85050037CF08 /* Rose.png in Resources */,
+				C02B0EBF252F85050037CF08 /* Robot.png in Resources */,
+				C02B0ECC252F85050037CF08 /* Mechanic.png in Resources */,
+				C02B0EBA252F85050037CF08 /* Rocket.png in Resources */,
+				C02B0EDB252F8A5D0037CF08 /* Doctor.png in Resources */,
+				C02B0ED2252F85050037CF08 /* Fifty Cent.png in Resources */,
+				C02B0EBE252F85050037CF08 /* Piggy.png in Resources */,
+				C02B0EDD252F8ACF0037CF08 /* Moose.png in Resources */,
+				C02B0EBB252F85050037CF08 /* Archer.png in Resources */,
+				C02B0ED0252F85050037CF08 /* Star Bear.png in Resources */,
+				C02B0EB5252F85050037CF08 /* Tiki.png in Resources */,
+				C02B0EC2252F85050037CF08 /* Pirate Flag.png in Resources */,
+				C02B0ECB252F85050037CF08 /* Eiffel Tower.png in Resources */,
+				C02B0EB9252F85050037CF08 /* Sun Face.png in Resources */,
+				C02B0ED9252F87D60037CF08 /* Mike Guy.png in Resources */,
+				C02B0EC0252F85050037CF08 /* Lighthouse.png in Resources */,
+				C02B0EC5252F85050037CF08 /* Bomb.png in Resources */,
+				C02B0ED3252F85050037CF08 /* Racecar.png in Resources */,
+				C02B0ED5252F85050037CF08 /* Gingerbread Man.png in Resources */,
+				C02B0E3B252F78310037CF08 /* Assets.xcassets in Resources */,
+				C02B0ECE252F85050037CF08 /* Grilling Owl.png in Resources */,
+				C02B0ECA252F85050037CF08 /* Cherries.png in Resources */,
+				C02B0ECF252F85050037CF08 /* Chickens.png in Resources */,
+				C02B0E39252F78290037CF08 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C038DC9925251CC600D3510E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C038DCAB25251CCA00D3510E /* LaunchScreen.storyboard in Resources */,
 				C038DCA825251CCA00D3510E /* Assets.xcassets in Resources */,
+				C0A926EC254207380085CAED /* Sounds in Resources */,
 				C038DCA625251CC600D3510E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,12 +527,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C02B0E2C252F78290037CF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B0E36252F78290037CF08 /* MessagesViewController.swift in Sources */,
+				C02B0E45252F79BD0037CF08 /* BrowserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C038DC9725251CC600D3510E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09ED49A252817A90002F11E /* MyCollectionViewCell.swift in Sources */,
 				C038DCA325251CC600D3510E /* ViewController.swift in Sources */,
+				C0BE2165252664AB007E9BCE /* GameController.swift in Sources */,
+				C0BE2169252700CB007E9BCE /* Question.swift in Sources */,
 				C038DC9F25251CC600D3510E /* AppDelegate.swift in Sources */,
+				C09ED49C2528189E0002F11E /* InventoryController.swift in Sources */,
+				C02BFB81252BF190000D18A7 /* Animations.swift in Sources */,
 				C038DCA125251CC600D3510E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +570,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C02B0E3E252F78310037CF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B0E2F252F78290037CF08 /* Trivia Stickers */;
+			targetProxy = C02B0E3D252F78310037CF08 /* PBXContainerItemProxy */;
+		};
 		C038DCB325251CCA00D3510E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C038DC9A25251CC600D3510E /* History Trivia */;
@@ -297,6 +588,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C02B0E37252F78290037CF08 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B0E38252F78290037CF08 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		C038DCA425251CC600D3510E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -316,6 +615,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C02B0E41252F78310037CF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Trivia Stickers/Trivia Stickers.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 6UM2GR5MVA;
+				INFOPLIST_FILE = "Trivia Stickers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SidHistoryTrivia.TriviaStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02B0E42252F78310037CF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "Trivia Stickers/Trivia Stickers.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 6UM2GR5MVA;
+				INFOPLIST_FILE = "Trivia Stickers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SidHistoryTrivia.TriviaStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C038DCC325251CCA00D3510E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -433,16 +778,20 @@
 		C038DCC625251CCA00D3510E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "History Trivia/History Trivia.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "History Trivia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.History-Trivia";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SidHistoryTrivia;
+				PRODUCT_NAME = Trivia;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,16 +800,20 @@
 		C038DCC725251CCA00D3510E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "History Trivia/History Trivia.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "History Trivia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.History-Trivia";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Personal.SidHistoryTrivia;
+				PRODUCT_NAME = Trivia;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -553,6 +906,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C02B0E40252F78310037CF08 /* Build configuration list for PBXNativeTarget "Trivia Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B0E41252F78310037CF08 /* Debug */,
+				C02B0E42252F78310037CF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C038DC9625251CC500D3510E /* Build configuration list for PBXProject "History Trivia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

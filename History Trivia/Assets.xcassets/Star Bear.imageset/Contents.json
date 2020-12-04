@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Clipart_-_Flag_of_California_-_Star_Bear_Plot_Title.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
